@@ -1,0 +1,39 @@
+@media all and (max-width:620px ) {
+	h1 {
+		font-size: 50px;
+	}
+
+	h2:after {
+		width: 120px;
+	}
+	
+	p {
+		display: block;
+	}
+}
+
+
+@media all and (max-width:480px ) {
+	h1 {
+		font-size: 50px;
+	}
+
+	h2:after {
+		width: 120px;
+	}
+	
+	p {
+		display: block;
+	}
+}
+
+
+@media all and (max-width:320px ) {
+	h1 {
+		font-size: 40px;
+	}
+
+	h2:after {
+		width: 90px;
+	}
+}
