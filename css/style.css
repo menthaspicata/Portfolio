@@ -36,9 +36,12 @@ h2 {
 	padding-top: 25px;
 }
 
-p {
+.portfolio p {
 	display: inline-block;
 	margin-top: 55px;
+	overflow: hidden;
+	height: 200px;
+	width: 200px;
 }
 
 .portfolio {
