@@ -1,0 +1,73 @@
+  @font-face {
+ 	font-family: "Oranienbaum";
+ 	src: url(../fonts/Oranienbaum.ttf);
+ }
+
+body {
+	background: url('../img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ }
+
+h1 {
+	font-family: "Oranienbaum";
+	color: #fff;
+	font-size: 70px;
+	text-align: center;
+	padding-top: 55px;
+}
+
+h2:after {
+	content: '';
+	display: block;
+	margin: 40px auto 0;
+	width: 135px;
+	background: #fff;
+	height: 2px;
+}
+
+h2 {
+	font-family: "Oranienbaum";
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.portfolio p {
+	display: inline-block;
+	margin-top: 55px;
+	overflow: hidden;
+	height: 200px;
+	width: 200px;
+}
+
+.portfolio {
+	text-align: center;
+}
+
+footer {
+	font-family: "Oranienbaum";
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 40px;
+
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	
+}
+
+footer p {
+	font-family: "Oranienbaum";
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 8px;
+}
